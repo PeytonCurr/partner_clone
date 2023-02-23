@@ -1,0 +1,51 @@
+.knight-img {
+    min-height: 85vh;
+}
+
+.card-light {
+    border-radius: 5px;
+    background-color: azure;
+    padding: .5em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    margin-right: 4.5em;
+    margin-left: 4.5em;
+}
+
+.text-margin {
+    margin-right: 4.5em;
+    margin-left: 4.5em;
+}
+
+.header-margin {
+    margin-left: 1.7em;
+}
+
+@media (min-width: 768px) {
+    .row {
+        margin-right: .75em;
+    }
+
+    .col-padding-r {
+        padding-right: 75px;
+    }
+
+    .col-padding-l {
+        padding-left: 75px;
+    }
+
+    .img-padding-l {
+        padding-left: 75px;
+        padding-right: 45px;
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+
+    .img-padding-r {
+        padding-left: 45px;
+        padding-top: 45px;
+        padding-bottom: 45px;
+        padding-right: 75px;
+    }
+
+}
