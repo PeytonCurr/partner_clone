@@ -28,10 +28,12 @@
 
     .col-padding-r {
         padding-right: 75px;
+        padding-top: 45px;
     }
 
     .col-padding-l {
         padding-left: 75px;
+        padding-top: 45px;
     }
 
     .img-padding-l {

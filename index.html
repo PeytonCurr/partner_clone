@@ -12,9 +12,10 @@
     <link rel="stylesheet" href="style.css">
 
     <style>
-        * {
+        /* NOTE Good for layout, but can cause issues with spacing */
+        /* * {
             min-height: 5vh;
-        }
+        } */
 
         body.debug .container,
         body.debug .container-fluid {
@@ -60,10 +61,10 @@
         <!-- SECTION Nav Bar -->
         <!-- #regions -->
         <section class="row shadow mb-5 sticky-top bg-light text-secondary">
-            <div class="col-2"><i
-                    class="mdi mdi-chess-knight text-dark display-6 d-flex justify-content-center pt-1 pt-md-2"></i>
+            <div class="col-2 pt-1 p-md-3">
+                <i class="mdi mdi-chess-knight text-dark display-6 d-flex justify-content-center"></i>
             </div>
-            <div class="col-10 d-none d-md-flex justify-content-end align-items-center pt-4">
+            <div class="col-10 d-none d-md-flex justify-content-end align-items-center">
                 <p class="m-0 ps-3 text-success">HOME</p>
                 <p class="m-0 ps-3">ABOUT</p>
                 <p class="m-0 ps-3">SERVICES</p>
@@ -108,11 +109,11 @@
         <!-- #region -->
         <section class="row text-secondary">
             <div class="col-12 text-center">
-                <h1 class="text-dark pt-5">Services</h1>
+                <h1 class="text-dark pt-4">Services</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, in.</p>
             </div>
-            <div class="col-md-6">
-                <div class="d-flex">
+            <div class="col-md-6 d-flex col-padding-l">
+                <!-- <div class="d-flex">
                     <i class="mdi mdi-file-document-outline text-success d-inline"></i>
                     <h4 class="text-dark">lorem5</h4>
                     <p class="align-self-end">lorem5</p>
@@ -131,10 +132,34 @@
                     <i class="text-success"></i>
                     <h4 class="text-dark">lorem5</h4>
                     <p>lorem5</p>
+                </div> -->
+
+                <div>
+                    <i class="mdi mdi-file-document-outline text-success d-block display-5 pb-3"></i>
+                    <i class="mdi mdi-file-document-outline text-success d-block display-5 pt-4 pb-3"></i>
+                    <i class="mdi mdi-file-document-outline text-success d-block display-5 py-1"></i>
+                    <i class="mdi mdi-file-document-outline text-success d-block display-5 py-2"></i>
                 </div>
+                <div>
+                    <h4 class="text-dark">Lorem, ipsum dolor.</h4>
+                    <p class="align-self-end">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi error
+                        totam dolorum.</p>
+                    <h4 class="text-dark">Lorem, ipsum dolor.</h4>
+                    <p class="align-self-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit iusto et
+                        sed.</p>
+                    <h4 class="text-dark">Lorem, ipsum.</h4>
+                    <p class="align-self-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, tempora?
+                    </p>
+                    <h4 class="text-dark">Lorem, ipsum.</h4>
+                    <p class="align-self-end">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus, nemo
+                        eos. Rem!</p>
+                </div>
+
             </div>
             <div class="col-md-6">
-                <img src="" alt="">
+                <img class="img-fluid img-padding-r"
+                    src="https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                    alt="Guy Typing Img">
             </div>
             <div class="col-md-6">
                 <img src="" alt="">
